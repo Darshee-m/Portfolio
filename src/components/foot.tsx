@@ -29,7 +29,7 @@ const Foot = () => {
         &copy; {new Date().getFullYear()} Darshee Machhar <br />
       </p>
       <a
-        href='https://github.com/Darshee-m/DarsheeMachhar.github.io/'
+        href='https://github.com/Darshee-m/Portfolio'
         target='_blank'
         rel='noreferrer'
         className='mt-4 flex cursor-pointer items-center gap-1 text-[18px] font-medium text-text transition-transform duration-200 hover:-translate-y-[2px] focus:-translate-y-[2px] hover:text-primary focus:text-primary'
