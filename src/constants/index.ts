@@ -15,6 +15,11 @@ import decibel from '../../public/photos/projects/Decibel.png';
 import medicalProduct from '../../public/photos/projects/medicalProductSentimentAnalysis.png';
 import ARNav from '../../public/photos/projects/ARNav.png';
 
+// Projects
+import ibm from '../../public/photos/hackathons/ibm.png';
+import recruitathon from '../../public/photos/hackathons/recruitathon.png';
+import mumbaihackathon from '../../public/photos/hackathons/mumbaihackathon.jpeg';
+
 // Skills
 // Languages
 import html from '../../public/icons/tech/html.svg';
@@ -99,6 +104,10 @@ export const navLinks = [
   {
     id: 'project',
     title: 'Projects'
+  },
+  {
+    id: 'achievements',
+    title: 'Achievements'
   },
   {
     id: 'resume',
@@ -850,3 +859,29 @@ export const techUsed = [
     link: 'https://docs.github.com/',
   },
 ];
+export const achievements = [
+  {
+    achievement:
+      "Created an application that screens resumes and takes preliminary HR interviews via a chat bot for applicant screening. Recruiters can also connect to the pool of suitable candidates via mail, chat or via our video calling facility.",
+    name: 'Recruit-a-thon 2020- Recruitment Solutions Hackathon',
+    designation: 'Winner among 200+ teams',
+    image: recruitathon,
+    link: 'https://www.hackerearth.com/challenges/hackathon/recruit-a-thon/'
+  },
+  {
+    achievement: 'The project I developed was an IOT solution to solve the problems of potholes and noise pollution in urban regions of Mumbai.',
+    name: 'Mumbai Hackathon 2019- an open-source hackathon',
+    designation: 'Winner Across the participants in Mumbai',
+    image: mumbaihackathon,
+    link: 'https://x.com/mumbaihackathon/status/1112724512502501376?s=48&t=LKj1e2-o7RC6c7nJM1SF3Q',
+  },
+  {
+    achievement: 'Awarded first place in the maiden installment of IBM Hack_Challenge, in 2019 for making a AI powered Friend Recommendation system using personality analysis.',
+    name: 'IBM Hack Challenge 2019',
+    designation: 'Winner in the Friend Affinity Finder Problem Statement',
+    image: ibm,
+    link: 'https://alumni.srit.ac.in/newsroom/news/IBM-Hackathon-2019.dz',
+  },
+  
+];
+

@@ -184,9 +184,9 @@ const Hero = () => {
             initial='hidden'
             animate='show'
           >
-            I&apos;m a <span className='from-primary to-accent bg-clip-text text-transparent bg-gradient-120'>Full-Stack Developer</span> residing in&nbsp;
+            I&apos;m a <span className='from-primary to-accent bg-clip-text text-transparent bg-gradient-120'>Computer Engineer</span> residing in the New York&nbsp;
             <br className='hidden sm:block' />
-            New Brunswick, NJ<span className='xs:hidden landscape-sm:inline'>.</span>
+            Metropolitan Area <span className='xs:hidden landscape-sm:inline'>.</span>
             <span className='hidden xs:inline landscape-sm:hidden'>
               , seeking new opportunities&nbsp;
               <br className='hidden sm:block' />

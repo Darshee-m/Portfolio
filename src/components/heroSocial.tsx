@@ -102,7 +102,7 @@ const HeroSocial = () => {
         </svg>
       </motion.a>
       <motion.a
-        href='#contact'
+        href="mailto:darshee.m013@gmail.com?subject=Reaching%20Out%20to%20you%20from%20your%20Portfolio&body=Your%20message%20here"
         className='ml-auto h-9 w-fit cursor-pointer rounded-[3px] bg-primary px-4 py-[6px] font-semibold text-background transition-[color,box-shadow] duration-200 hover:from-primary hover:to-accent hover:text-text hover:shadow-xl hover:shadow-primary hover:bg-gradient-30 focus:from-primary focus:to-accent focus:text-text focus:shadow-xl focus:shadow-primary focus:bg-gradient-30 xs:ml-0'
         variants={fadeIn('left', '', 3.0, 0.5) as Variants}
         initial='hidden'
